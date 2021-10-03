@@ -1,1 +1,1 @@
-console.log('test 7')
+exports.result = 1;
