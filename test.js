@@ -1,1 +1,1 @@
-exports.result = 5;
+exports.result = 6;
