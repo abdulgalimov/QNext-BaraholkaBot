@@ -27,3 +27,8 @@ adsList:
 
 start:
   hello: Привет, $(user.name)!
+
+user_test: |
+  id: $(user.id)
+  name: $(user.name)
+  username: $(user.username)
