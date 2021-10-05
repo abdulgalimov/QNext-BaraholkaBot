@@ -20,7 +20,10 @@ adForm:
 adsList:
   main: Мои объявление
   item: |
-    ${formResult}
+    $(formResult.values.about)
+    Стоимость: $(formResult.values.cost)
+    Адресс: $(formResult.values.address)
+    Контакты: $(formResult.values.contacts| notFound: telegram)
 
 start:
   hello: Привет, $(user.name)!
