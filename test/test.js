@@ -1,2 +1,2 @@
 
-expports.test = '1234'
+expports.test = 1;
